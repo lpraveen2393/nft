@@ -4,6 +4,7 @@ body {
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*style for navbar */
 .navbar {
     background-color: rgba(51, 51, 51, 0.8);
     overflow: hidden;
@@ -40,6 +41,7 @@ body {
     background-color: #FFA500;
 }
 
+/*the home page style*/
 .container {
     display: flex;
     max-height: 75vw;
@@ -125,7 +127,7 @@ section.page1 {
 }
 
 
-/* ... Your existing CSS ... */
+/*about us page style*/
 
 .container2 {
     display: flex;
@@ -145,7 +147,6 @@ section.page1 {
 .content-container {
     width: 75%;
     box-sizing: content-box;
-    /*width: 100%;*/
 }
 
 .container2 p {
@@ -166,6 +167,8 @@ section.page1 {
 .page2 {
     background-color: rgba(4, 1, 12, 0.654);
 }
+
+/*creators styles from here*/
 
 .creator h6 {
     color: #e2e2e2;
@@ -202,7 +205,6 @@ section.page1 {
     margin-top: 10px;
 }
 
-/* Optional: Add hover effect to each creator */
 .creator:hover {
     filter: drop-shadow(0 0 0.75rem gray);
     transition: background-color 0.3s;
@@ -232,6 +234,7 @@ h3 {
     align-items: center;
 }
 
+/*page 4 collections style begins here*/
 .page4 {
     padding: 20px;
 
@@ -256,21 +259,17 @@ h3 {
 
 }
 
-
-
 .row div {
 
     background-color: skyblue;
     border: 2px solid #FFA500;
     text-align: center;
-
     width: 200px;
     height: 250px;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     background-color: rgba(4, 1, 12, 0.654);
-
 }
 
 .page4 img {
@@ -333,7 +332,6 @@ h3 {
 .right {
     left: 50%;
     margin-left: 30px;
-    /* Added margin for the timeline-container right */
 }
 
 .left::before,
@@ -375,7 +373,6 @@ h3 {
 
 .timeline-img-container {
     display: none;
-    /* Hide the image container */
 }
 
 .page5 h1 {
@@ -420,9 +417,6 @@ h3 {
     }
 }
 
-
-
-/*page 6 style begins from here*/
 .page6 {
     display: flex;
 
@@ -435,8 +429,6 @@ h3 {
     justify-content: center;
     padding-top: 200px;
 }
-
-
 
 /*page 7 style*/
 .page7 {
@@ -471,6 +463,7 @@ h3 {
     padding-top: 200px;
 }
 
+/*footer styles are here below*/
 footer {
     color: #e2e2e2;
     align-items: center;
