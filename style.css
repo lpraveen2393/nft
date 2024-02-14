@@ -1,0 +1,498 @@
+body {
+    background-image: url(assets/bg.svg);
+    background-size: 100vh;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(51, 51, 51, 0.8);
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px;
+
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #FFA500;
+}
+
+.container {
+    display: flex;
+    max-height: 75vw;
+    margin: 30px 30px;
+
+}
+
+.content {
+    flex: 1;
+    color: white;
+    padding-left: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 60px;
+    word-spacing: 1rem;
+    color: white;
+}
+
+.highlight {
+    color: orange;
+    padding-left: 15px;
+}
+
+p {
+    color: azure;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 15px 20px;
+    padding: 15px 30px;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #FFA500;
+}
+
+.page1 {
+    margin: 15px;
+    padding: 5px;
+    height: 75px;
+    width: 25%;
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+section.page1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+    height: 75px;
+    width: 50%;
+    opacity: 0.6;
+}
+
+.image {
+    width: 45%;
+    max-height: 500px;
+    max-width: 25%;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.image1 {
+    width: 150px;
+    max-height: 150px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.75rem gray)
+}
+
+
+/* ... Your existing CSS ... */
+
+.container2 {
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.image-container {
+    width: 50%;
+    justify-content: left;
+
+}
+
+.content-container {
+    width: 75%;
+    box-sizing: content-box;
+    /*width: 100%;*/
+}
+
+.container2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e2e2e2;
+    justify-content: left;
+    text-align: center;
+    word-spacing: 0.2rem;
+
+}
+
+
+.page2 h1 {
+    text-align: center;
+}
+
+.page2 {
+    background-color: rgba(4, 1, 12, 0.654);
+}
+
+.creator h6 {
+    color: #e2e2e2;
+}
+
+.creator h5 {
+    color: #FFA500;
+
+}
+
+.incontainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.creator {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #FFA500;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.creator img {
+    width: 100%;
+    max-height: 150px;
+    position: static;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* Optional: Add hover effect to each creator */
+.creator:hover {
+    filter: drop-shadow(0 0 0.75rem gray);
+    transition: background-color 0.3s;
+}
+
+.incontainer3 div {
+    max-height: 300px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(4, 1, 12, 0.654);
+
+}
+
+.container3 h1,
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.page3 button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 {
+    padding: 20px;
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.page4 section {
+
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    position: static;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+
+
+.row div {
+
+    background-color: skyblue;
+    border: 2px solid #FFA500;
+    text-align: center;
+
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(4, 1, 12, 0.654);
+
+}
+
+.page4 img {
+    max-width: 100%;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+.page4 h5,
+.page4 h6 {
+    margin: 0;
+}
+
+/* the style for timeline begins here*/
+
+.page5 {
+    box-sizing: border-box;
+    background-size: 100vh;
+
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Added padding for the timeline */
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #FFA500;
+    /* Changed color to #FFA500 */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Transparent black background */
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    height: 175px;
+}
+
+.left {
+    left: 5%;
+    margin-right: 20px;
+}
+
+.right {
+    left: 50%;
+    margin-left: 30px;
+    /* Added margin for the timeline-container right */
+}
+
+.left::before,
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    border: medium solid white;
+    border-width: 10px;
+}
+
+.left::before {
+    right: 30px;
+    border-color: transparent transparent transparent white;
+}
+
+.right::before {
+    left: 30px;
+    border-color: transparent white transparent transparent;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+
+.content h2,
+.content p {
+    color: white;
+    /* Text color in white */
+}
+
+.timeline-img-container {
+    display: none;
+    /* Hide the image container */
+}
+
+.page5 h1 {
+    color: #e2e2e2;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.page5 h3 {
+    color: #e2e2e2;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-container::before {
+        left: 60px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+        margin-right: 0;
+        /* Remove margin for the timeline-container right in smaller screens */
+    }
+}
+
+
+
+/*page 6 style begins from here*/
+.page6 {
+    display: flex;
+
+    color: #e2e2e2;
+    background-color: black;
+}
+
+.content-page6 {
+
+    justify-content: center;
+    padding-top: 200px;
+}
+
+
+
+/*page 7 style*/
+.page7 {
+    display: flex;
+
+    color: #e2e2e2;
+    background-color: black;
+}
+
+.content-page7 {
+
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.content-page7 p {
+    padding-bottom: 50px;
+}
+
+/*page 8 style is below*/
+.page8 {
+    display: flex;
+
+    color: #e2e2e2;
+    background-color: black;
+}
+
+.content-page8 {
+
+    justify-content: center;
+    padding-top: 200px;
+}
+
+footer {
+    color: #e2e2e2;
+    align-items: center;
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+footer>h2 {
+    text-align: center;
+    align-items: center;
+}
+
+footer>p {
+    align-items: center;
+}
+
+#email {
+    height: 40px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 100px;
+}
